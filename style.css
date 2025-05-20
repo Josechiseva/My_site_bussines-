@@ -1,0 +1,653 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins';
+    background-color: black;
+    color: white;
+}
+main{
+    width: 100%;
+}
+main section#sec1{
+    background-image: url('Imagens/BG.png');
+    background-size: cover;
+    background-position: right ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 100px;
+}
+main section#sec1 nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    width: 75%;
+}
+main section#sec1 nav div#logo{
+    width: 50%;
+}
+main section#sec1 nav div#logo img{
+    width: 30%;
+}
+main section#sec1 div#lk{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+main section#sec1 div#lk ul{
+    display: flex;
+    gap: 20px;
+}
+main section#sec1 div#lk ul a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 14,05pt;
+    font-weight: 200;
+}
+main section#sec1 div#lk ul a:hover{
+    color: #f9da11;
+    transition: all .6s ease;
+}
+main section#sec1 div#bt a{
+    text-decoration: none;
+    color: white;
+    font-size: 14,05pt;
+    font-weight: 100;
+    border: white solid 1px;
+    padding: 7px 30px;
+    border-radius: 5px;
+}
+main section#sec1 div#bt a:hover{
+    background-color: white;
+    color: black;
+    transition: all .6s ease;
+}
+main section#sec1 div#text{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 85px;
+}
+main section#sec1 div#text h1{
+    font-size: 2em;
+    font-weight: 200;
+}
+main section#sec1 div#text h1 span{
+    font-weight: bold;
+}
+main section#sec1 div#text p a{
+    color: white;
+    font-weight: 100;
+}
+main section#sec1 div#text p a:hover{
+    color: rgb(190, 190, 190);
+    transition: all .6s ease;
+}
+main section#sec1 div#footer{
+    width: 100%;
+    background-color: #0c0c0c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 50px;
+}
+main section#sec1 div#footer img{
+    width: 6%;
+}
+main section#sec2{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+main section#sec2 div#ig{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main section#sec2 div#ig img{
+    width: 70%;
+}
+main section#sec2 div#text{
+    margin-top: 20px;
+    width: 40%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 30px;
+}
+main section#sec2 div#text p#princ{
+    background-image: linear-gradient(to right, #e06016, white, #749fb7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+main section#sec2 div#text h1{
+    width: 70%;
+    font-weight: 200;
+    font-size: 2em;
+}
+main section#sec2 div#text h1 span{
+    font-weight: bold;
+}
+main section#sec2 div#text p{
+    font-weight: 100;
+}
+main section#sec2 div#text p a{
+    color: white;
+    font-weight: 100;
+    cursor: pointer;
+}
+main section#sec2 div#text p a:hover{
+    color: rgb(190, 190, 190);
+    transition: all .6s ease;
+}
+main section#sec3{
+    margin-top: 85px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+main section#sec3 div#text{
+    width: 60%;
+}
+main section#sec3 div#text h1{
+    font-weight: 200;
+    font-size: 2em;
+}
+main section#sec3 div#text h1 span{
+    font-weight: bold;
+}
+main section#sec3 div#caixas{
+    width: 90%;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 400px;
+}
+
+main section#sec3 div#caixas div#um{
+    background-color: #131313;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 25%;
+    padding: 40px;
+}
+main section#sec3 div#caixas div#um div#img{
+    width: 100%;
+    padding: 0;
+}
+main section#sec3 div#caixas div#um div#img img{
+    width: 100%;
+}
+main section#sec3 div#caixas div#um div#text{
+    width: 100%;
+    padding: 0;
+}
+main section#sec3 div#caixas div#um div#text h1{
+    font-weight: bolder;
+}
+main section#sec3 div#caixas div#um div#text p{
+    font-size: 10px;
+    font-weight: 100;
+}
+main section#sec3 div#caixas div#dois{
+    border: white solid 1px;
+    border-radius: 10px;
+    width: 25%;
+    padding: 40px;
+}
+main section#sec3 div#caixas div#dois p{
+    font-weight: 100 ;
+}
+main section#sec3 div#caixas div#tres{
+    background-color: #131313;;
+    padding: 20px 40px;
+    border-radius: 10px;
+    width: 25%;
+}
+main section#sec3 div#caixas div#tres p#especial{
+    background-image: linear-gradient(to right, #f45f09, #90d4f9, #ffc11f);
+    width: 50%;
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+main section#sec3 div#caixas div#tres p#pg{
+    color: rgb(173, 173, 173);
+}
+main section#sec3 div#caixas div#quatro{
+    border: white solid 1px;
+    border-radius: 10px;
+    width: 25%;
+    padding: 40px;
+}
+main section#sec3 div#caixas div#quatro p{
+    font-weight: 100;
+    border-radius: 10px;
+}
+main section#sec3 div#caixas div#cinco{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    border-radius: 10px;
+    width: 25%;
+    background-color:#131313;
+    justify-content: space-between;
+}
+main section#sec3 div#caixas div#cinco div#text{
+    width: 100%;
+    padding: 40px;
+}
+main section#sec3 div#caixas div#cinco div#text h2{
+    font-size: 2em;
+    font-weight: normal;
+}
+main section#sec3 div#caixas div#cinco div#text p{
+    font-weight: 100;
+    font-size: 10px;
+}
+main section#sec3 div#caixas div#cinco div#fig{
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding: 0 20px 0 0;
+    gap: 10px;
+}
+main section#sec3 div#caixas div#cinco div#fig div#fg1{
+    background-color: #ccedff;
+    width: 10%;
+    height: 60%;
+}
+main section#sec3 div#caixas div#cinco div#fig div#fg2{
+    background-color: #90d4f9;
+    width: 10%;
+    height: 80%;
+}
+main section#sec3 div#caixas div#cinco div#fig div#fg3{
+    background-color: #30b4fc;
+    width: 10%;
+    height: 100%;
+}
+
+main section#sec3 div#caixas div#seis{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color:#131313;
+    width: 25%;
+    padding: 0px;
+}
+main section#sec3 div#caixas div#seis div#text{
+    width: 100%;
+    color: rgb(173, 173, 173);
+    padding: 40px;
+}
+main section#sec3 div#caixas div#seis div#img{
+    width: 100%;
+    display: flex;
+    padding: 0 0 0 40px;
+}
+main section#sec3 div#caixas div#seis div#img img{
+    width: 80%;
+}
+main section#sec4{
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+main section#sec4 div#text{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+main section#sec4 div#text p#princ{
+    background-image: linear-gradient(to right, #e06016, white, #749fb7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+main section#sec4 div#text h1{
+    font-weight: 200;
+    font-size: 2em;
+    text-align: right;
+}
+main section#sec4 div#text h1 span{
+    font-weight: bold;
+}
+main section#sec4 div#img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main section#sec4 div#img img{
+    width: 72%;
+}
+main section#sec5{
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+main section#sec5 div#text{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main section#sec5 div#text p#princ{
+    background-image: linear-gradient(to right, #e06016, white, #749fb7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+main section#sec5 div#text h1{
+    font-weight: 200;
+    font-size: 2em;
+}
+main section#sec5 div#text h1 span{
+    font-weight: bold;
+}
+main section#sec5 div#caixas{
+    width: 90%;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 400px;
+}
+main section#sec5 div#caixas div#c1{
+    width: 25%;
+    border: white solid 1px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main section#sec5 div#caixas div#c1:hover{
+    transform: scale(1.1);
+    transition: all .6s ease;
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.267);
+    border: #e06016 solid 1px;
+}
+main section#sec5 div#caixas div#c1 div#text{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 100%;
+}
+main section#sec5 div#caixas div#c1 div#text div#preco{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+main section#sec5 div#caixas div#c1 div#text div#preco h4{
+    font-weight: normal;
+}
+main section#sec5 div#caixas div#c1 div#text div#preco p{
+    font-size: 10px;
+    font-weight: 100;
+}
+main section#sec5 div#caixas div#c1 div#text ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+main section#sec5 div#caixas div#c1 div#text ul li{
+    font-weight: 200;
+}
+main section#sec5 div#caixas div#c1 div#text ul li::before{
+    content: '[\2713]';
+}
+main section#sec5 div#caixas div#c1 div#text ul hr{
+    width: 90%;
+}
+main section#sec5 div#caixas div#c1 div#link{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+main section#sec5 div#caixas div#c1 div#link a{
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    width: 80%;
+    margin-bottom: 15px;
+    font-weight: 200;
+    border-radius: 10px;
+    padding: 5px;
+}
+main section#sec5 div#caixas div#c1 div#link a:hover{
+    background-color: black;
+    color: white;
+    border: white solid 1px;
+}
+main section#sec5 div#caixas div#c2{
+    width: 25%;
+    background-color: #161616;
+    border: white solid 1px;
+    border-radius: 10px;
+}
+main section#sec5 div#caixas div#c2:hover{
+    transform: scale(1.1);
+    transition: all .6s ease;
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.267);
+    border: #e06016 solid 1px;
+}
+main section#sec5 div#caixas div#c2 div#text{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 100%;
+}
+main section#sec5 div#caixas div#c2 div#text div#preco{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+main section#sec5 div#caixas div#c2 div#text div#preco h4{
+    font-weight: normal;
+}
+main section#sec5 div#caixas div#c2 div#text div#preco p{
+    font-size: 10px;
+    font-weight: 100;
+}
+main section#sec5 div#caixas div#c2 div#text ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+main section#sec5 div#caixas div#c2 div#text ul li{
+    font-weight: 200;
+}
+main section#sec5 div#caixas div#c2 div#text ul li::before{
+    content: '[\2713]';
+}
+main section#sec5 div#caixas div#c2 div#text ul hr{
+    width: 90%;
+}
+main section#sec5 div#caixas div#c2 div#link{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main section#sec5 div#caixas div#c2 div#link a{
+    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #f45f09, #90d4f9, #ffc11f);
+    width: 80%;
+    color: white;
+    margin-bottom: 15px;
+    font-weight: 200;
+    border-radius: 10px;
+    padding: 5px;
+}
+main section#sec5 div#caixas div#c2 div#link a:hover{
+    border: white solid 1px;
+}
+
+main section#sec5 div#caixas div#c3{
+    width: 25%;
+    border: white solid 1px;
+    border-radius: 10px;
+}
+main section#sec5 div#caixas div#c3:hover{
+    transform: scale(1.1);
+    transition: all .6s ease;
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.267);
+    border: #e06016 solid 1px;
+}
+main section#sec5 div#caixas div#c3 div#text{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 100%;
+}
+main section#sec5 div#caixas div#c3 div#text div#preco{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+main section#sec5 div#caixas div#c3 div#text div#preco h4{
+    font-weight: normal;
+}
+main section#sec5 div#caixas div#c3 div#text div#preco p{
+    font-size: 10px;
+    font-weight: 100;
+}
+main section#sec5 div#caixas div#c3 div#text ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+main section#sec5 div#caixas div#c3 div#text ul li{
+    font-weight: 200;
+}
+main section#sec5 div#caixas div#c3 div#text ul li::before{
+    content: '[\2713]';
+}
+main section#sec5 div#caixas div#c3 div#text ul hr{
+    width: 90%;
+}
+main section#sec5 div#caixas div#c3 div#link{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main section#sec5 div#caixas div#c3 div#link a{
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    width: 80%;
+    margin-bottom: 15px;
+    font-weight: 200;
+    border-radius: 10px;
+    padding: 5px;
+}
+main section#sec5 div#caixas div#c3 div#link a:hover{
+    background-color: black;
+    color: white;
+    border: white solid 1px;
+}
+main section#sec6{
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #161616;
+}
+main section#sec6 div#text{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+main section#sec6 div#text h1{
+    width: 50%;
+    font-weight: 200;
+    text-align: right;
+    font-size: 2em;
+}
+main section#sec6 div#text span{
+    font-weight: bold;
+}
+main section#sec6 div#text div#linha{
+    width: 50%;
+    height: .5vh;
+    background-color: white;
+}
+main section#sec6 div#caixas{
+    width: 90%;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 300px;
+    margin-top: 60px;
+}
+main section#sec6 div#caixas div#c1{
+    background-color: red;
+    width: 20%;
+}
+main section#sec6 div#caixas div#c2{
+    background-color: red;
+    width: 20%;
+}main section#sec6 div#caixas div#c3{
+    background-color: red;
+    width: 20%;
+}main section#sec6 div#caixas div#c4{
+    background-color: red;
+    width: 20%;
+}
+
+
+
+
+
