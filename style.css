@@ -635,16 +635,74 @@ main section#sec6 div#caixas{
 main section#sec6 div#caixas div#c1{
     background-color: red;
     width: 20%;
+    border-radius: 10px;
+    background-color: #636363;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: 200;
 }
 main section#sec6 div#caixas div#c2{
     background-color: red;
     width: 20%;
-}main section#sec6 div#caixas div#c3{
+    border-radius: 10px;
+    background-color: #636363;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: 200;
+}
+main section#sec6 div#caixas div#c3{
     background-color: red;
     width: 20%;
-}main section#sec6 div#caixas div#c4{
+    border-radius: 10px;
+    background-color: #636363;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: 200;
+}
+main section#sec6 div#caixas div#c4{
     background-color: red;
     width: 20%;
+    border-radius: 10px;
+    background-color: #636363;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: 200;
+}
+main section#sec6 div#rodape{
+    margin-top: 60px;
+    background-color: #636363;
+    width: 78%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+main section#sec6 div#rodape div#text{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 80%;
+    margin: 0;
+}
+main section#sec6 div#rodape div#start_now{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30%;
+}
+main section#sec6 div#rodape div#start_now:hover{
+    transform: scale(1.1);
+    transition: all .6s ease;
 }
 
 
