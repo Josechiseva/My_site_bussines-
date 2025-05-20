@@ -678,6 +678,7 @@ main section#sec6 div#caixas div#c4{
 }
 main section#sec6 div#rodape{
     margin-top: 60px;
+    margin-bottom: 85px;
     background-color: #636363;
     width: 78%;
     display: flex;
@@ -704,6 +705,63 @@ main section#sec6 div#rodape div#start_now:hover{
     transform: scale(1.1);
     transition: all .6s ease;
 }
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 85px;
+    justify-content: center;
+    align-items: center;
+}
+footer div#um{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+footer div#um div#cnt1{
+    width: 25%;
+}
+footer div#um div#cnt1 img{
+    margin-bottom: 10px;
+}
+footer div#um div#cnt1 p{
+    color: #636363;
+}
+footer div#um div#cnt2 p.especial{
+    color: white;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+footer div#um div#cnt2 p{
+    color: #636363;
+}
+
+footer div#um div#cnt3 p.especial{
+    color: white;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+footer div#um div#cnt3 a{
+    text-decoration: none;
+    color: #636363;
+}
+footer div#um div#cnt3 a:hover{
+    color: white;
+    transition: all 0.6s ease;
+}
+footer div#dois{
+    width: 68%;
+    margin: 40px;
+    background-color: #464646;
+    height: .1vh;
+}
+footer div#tres{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    color: #636363;
+}
+
 
 
 
