@@ -1,0 +1,274 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*
+    Telas pequenas: max-786px;
+    Telas de tabletes: max-992px;
+*/
+@media screen and (max-width: 965px) {
+    main section#sec1 nav{
+        width: 90%;
+    }
+    main section#sec1 div#logo{
+        width: 30%;
+    }
+    main section#sec1 nav div#logo img{
+        width: 40%;
+    }
+    main section#sec1 div#lk{
+        justify-content: flex-start;
+        width: 70%;
+        gap: 0;
+    }
+    main section#sec1 div#lk ul{
+        width: 80%;
+    }
+    main section#sec1 div#lk ul li a{
+        font-size: 18px;
+    }
+    main section#sec1 div#bt{
+        width: 30%;
+    }
+    main section#sec1 div#bt a{
+        font-size: 16px;
+    }
+    main section#sec2{
+        flex-direction: column-reverse;
+    }
+    main section#sec2 div#ig{
+        width: 80%;
+    }
+    main section#sec2 div#text{
+        width: 80%;
+    }
+    main section#sec5 div#caixas div#c1{
+        width: 31%;
+    }
+    main section#sec5 div#caixas div#c1 div#text ul li{
+        font-size: 13px;
+    }
+    main section#sec5 div#caixas div#c2{
+        width: 31%;
+    }
+    main section#sec5 div#caixas div#c2 div#text ul li{
+        font-size: 13px;
+    }
+    main section#sec5 div#caixas div#c3{
+        width: 31%;
+    }
+    main section#sec5 div#caixas div#c3 div#text ul li{
+        font-size: 13px;
+    }
+    main section#sec6 div#caixas{
+        gap: 5px;
+    }
+    main section#sec6 div#caixas div#c1{
+        width: 22%;
+        font-size: 15px;
+    }
+    main section#sec6 div#caixas div#c2{
+        width: 22%;
+        font-size: 15px;
+    }
+    main section#sec6 div#caixas div#c3{
+        width: 22%;
+        font-size: 15px;
+    }
+    main section#sec6 div#caixas div#c4{
+        width: 22%;
+        font-size: 15px;
+    }
+    
+}
+@media screen and (max-width: 810px) {
+    main section#sec2{
+        flex-direction: column-reverse;
+    }
+    main section#sec2 div#ig{
+        width: 80%;
+    }
+    main section#sec2 div#text{
+        width: 80%;
+    }
+    main section#sec5 div#caixas div#c1{
+        width: 25%;
+    }
+    main section#sec5 div#caixas div#c1 div#text ul li{
+        font-size: 10px;
+    }
+    main section#sec5 div#caixas div#c2{
+        width: 25%;
+    }
+    main section#sec5 div#caixas div#c2 div#text ul li{
+        font-size: 10px;
+    }
+    main section#sec5 div#caixas div#c3{
+        width: 25%;
+    }
+    main section#sec5 div#caixas div#c3 div#text ul li{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 780px){
+    main section#sec1 div#lk{
+        gap: 20px;
+    }
+    main section#sec1 div#lk ul{
+    display: flex;
+    gap: 20px;
+    }
+    main section#sec1 div#lk ul li a{
+        width: 30%;
+        font-size: 20px;
+    }
+    main section#sec3 div#caixas{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    main section#sec3 div#caixas div#um{
+        width: 35%;
+    }
+    main section#sec3 div#caixas div#dois{
+        width: 35%;
+    }
+    main section#sec3 div#caixas div#tres{
+        width: 35%;
+    }
+    main section#sec3 div#caixas div#quatro{
+        width: 35%;
+    }
+    main section#sec3 div#caixas div#cinco{
+        width: 35%;
+    }
+    main section#sec3 div#caixas div#seis{
+        width: 35%;
+    }
+    main section#sec5 div#caixas{
+        gap: 30px;
+    }
+    main section#sec5 div#caixas div#c1{
+        width: 35%;
+    }
+    main section#sec5 div#caixas div#c2{
+        width: 35%;
+    }
+    main section#sec5 div#caixas div#c3{
+        width: 35%;
+    }
+    main section#sec6 div#caixas{
+        gap: 20px;
+    }
+    main section#sec6 div#caixas div#c1{
+        width: 32%;
+    }
+    main section#sec6 div#caixas div#c2{
+        width: 32%;
+    }
+    main section#sec6 div#caixas div#c3{
+        width: 32%;
+    }
+    main section#sec6 div#caixas div#c4{
+        width: 32%;
+    }
+}
+@media screen and (max-width: 779px){
+   main section#sec1 nav{
+        width: 90%;
+    }
+    main section#sec1 div#logo{
+        width: 15%;
+    }
+    main section#sec1 nav div#logo img{
+        width: 45%;
+    }
+    main section#sec1 div#lk{
+        justify-content: space-between;
+        width: 70%;
+        gap: 0;
+    }
+    main section#sec1 div#lk ul{
+        width: 85%;
+    }
+    main section#sec1 div#lk ul li a{
+        font-size: 18px;
+    }
+    main section#sec1 div#bt{
+        width: 30%;
+    }
+    main section#sec1 div#bt a{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 715px){
+    main section#sec1 nav{
+        width: 90%;
+    }
+    main section#sec1 div#logo{
+        width: 10%;
+    }
+    main section#sec1 nav div#logo img{
+        width: 50%;
+    }
+    main section#sec1 div#lk{
+        justify-content: space-between;
+        width: 90%;
+        gap: 0;
+    }
+    main section#sec1 div#lk ul{
+        width: 80%;
+    }
+    main section#sec1 div#lk ul li a{
+        font-size: 18px;
+    }
+    main section#sec1 div#bt{
+        width: 30%;
+    }
+    main section#sec1 div#bt a{
+        font-size: 16px;
+    }
+    main section#sec6 div#rodape{
+        display: flex;
+        justify-content: space-between;
+    }
+    main section#sec6 div#rodape div#text{
+        width: 70%;
+    }
+    main section#sec6 div#rodape div#start_now{
+        width: 30%;
+    }
+    main section#sec6 div#rodape div#start_now img{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 645px){
+    main section#sec1 nav{
+        width: 90%;
+    }
+    main section#sec1 div#logo{
+        width: 5%;
+    }
+    main section#sec1 nav div#logo img{
+        width: 55%;
+    }
+    main section#sec1 div#lk{
+        justify-content: space-between;
+        width: 95%;
+        gap: 0;
+    }
+    main section#sec1 div#lk ul{
+        width: 80%;
+    }
+    main section#sec1 div#lk ul li a{
+        font-size: 18px;
+    }
+    main section#sec1 div#bt{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+    }
+    main section#sec1 div#bt a{
+        font-size: 14px;
+        padding: 9px;
+    }
+    
+}

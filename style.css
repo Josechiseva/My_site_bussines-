@@ -231,7 +231,7 @@ main section#sec3 div#caixas div#tres{
 }
 main section#sec3 div#caixas div#tres p#especial{
     background-image: linear-gradient(to right, #f45f09, #90d4f9, #ffc11f);
-    width: 50%;
+    width: 100px;
     text-align: center;
     border-radius: 20px;
     padding: 5px;
