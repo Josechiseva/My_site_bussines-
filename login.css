@@ -110,6 +110,10 @@ form input[type=submit]:hover{
     text-decoration: none;
     margin-top: 10px;
     margin-bottom: 20px;
+    transition: all .0s ease;
+}
+.botao:hover{
+    color: rgb(9, 9, 134);
 }
 @media screen and (min-width: 700px) {
     div#caixa{
