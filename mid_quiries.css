@@ -113,6 +113,7 @@
         gap: 20px;
     }
     main section#sec1 div#lk ul{
+    display: none;
     display: flex;
     gap: 20px;
     }
@@ -182,11 +183,13 @@
         width: 45%;
     }
     main section#sec1 div#lk{
-        justify-content: space-between;
-        width: 70%;
+        display: flex;
+        justify-content: flex-end;
+        width: 60%;
         gap: 0;
     }
     main section#sec1 div#lk ul{
+        display: none;
         width: 85%;
     }
     main section#sec1 div#lk ul li a{
@@ -210,7 +213,8 @@
         width: 50%;
     }
     main section#sec1 div#lk{
-        justify-content: space-between;
+        display: flex;
+        justify-content: flex-end;
         width: 90%;
         gap: 0;
     }
@@ -251,7 +255,8 @@
         width: 55%;
     }
     main section#sec1 div#lk{
-        justify-content: space-between;
+        display: flex;
+        justify-content: flex-end;
         width: 95%;
         gap: 0;
     }

@@ -1,0 +1,138 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: black url(Imagens/login-back.jpg);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-size: cover;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div#caixa{
+    width: 70%;
+    border: white solid 1px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 20px;
+    transition-timing-function: ease;
+}
+div#caixa div#img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div#caixa div#img img{
+    width: 50%;
+}
+div#caixa div#form{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+div#caixa div#form h1{
+    text-align: center;
+    width: 100%;
+}
+div#caixa div#form p{
+    font-size: 12px;
+    width: 80%;
+}
+div#caixa div#form form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+div#caixa div#form form div.campo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+div#caixa div#form form div.campo input{
+    width: 70%;
+    padding: 8px;
+    border-radius: 15px;
+    background-color: transparent;
+}
+div#caixa div#form form div.campo input::placeholder{
+    color: rgb(194, 193, 193);
+    font-weight: 100;
+    font-size: 10px;
+}
+div.campo input:focus-within{
+    color: white;
+}
+div#caixa div#form form div.campo span{
+    background-color: white;
+    padding: 6px;
+    transform: translateX(10px);
+    color: blue;
+}
+form input[type=submit]{
+    margin-top: 10px;
+    display: block;
+    font-size: 1em;
+    width: 80%;
+    height: 30px;
+    background-color: #ffffff;
+    border: none;
+    color: blue;
+    border-radius: 8px;
+    transition: all .6s ease;
+    cursor: pointer;
+}
+form input[type=submit]:hover{
+    background-color: transparent;
+    color: white;
+    border: solid 1px #fff;
+}
+.botao{
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+@media screen and (min-width: 700px) {
+    div#caixa{
+        width: 60%;
+    }
+}
+@media screen and (min-width: 760px) {
+    div#caixa{
+        width: 50%;
+    }
+}
+@media screen and (min-width: 860px) {
+    div#caixa{
+        width: 40%;
+    }
+}
+@media screen and (min-width: 992px) {
+    div#caixa{
+        flex-direction: row-reverse;
+        width: 90%;
+        gap: 5px;
+    }
+    div#caixa div#img img{
+    width: 70%;
+    }
+}
