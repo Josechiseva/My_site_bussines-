@@ -277,3 +277,8 @@
     }
     
 }
+@media screen and (max-width: 560px){
+    main section#sec1 nav{
+        width: 90%;
+    }
+}
