@@ -281,4 +281,23 @@
     main section#sec1 nav{
         width: 80%;
     }
+    main section#sec1 div#lk{
+        display: flex;
+        justify-content: flex-end;
+    }
+    main section#sec1 div#lk ul{
+        width: 0;
+    }
+    main section#sec1 div#lk ul li a{
+        font-size: 18px;
+    }
+    main section#sec1 div#bt{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+    }
+    main section#sec1 div#bt a{
+        font-size: 14px;
+        padding: 3px;
+    }
 }
