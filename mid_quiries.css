@@ -123,7 +123,10 @@
     }
     main section#sec3 div#caixas{
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
         gap: 30px;
     }
     main section#sec3 div#caixas div#um{
@@ -153,23 +156,40 @@
     main section#sec5 div#caixas div#c2{
         width: 35%;
     }
-    main section#sec5 div#caixas div#c3{
-        width: 35%;
+    main section#sec5 div#caixas{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
     }
-    main section#sec6 div#caixas{
+    main section#sec5 div#caixas div#c3, main section#sec5 div#caixas div#c2, main section#sec5 div#caixas div#c1{
+        width: 50%;
+    }
+    main section#sec6 div#text{
+        width: 90%;
         gap: 20px;
     }
+    main section#sec6 div#caixas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+    }
     main section#sec6 div#caixas div#c1{
-        width: 32%;
+        width: 50%;
     }
     main section#sec6 div#caixas div#c2{
-        width: 32%;
+        width: 50%;
     }
     main section#sec6 div#caixas div#c3{
-        width: 32%;
+        width: 50%;
     }
     main section#sec6 div#caixas div#c4{
-        width: 32%;
+        width: 50%;
     }
 }
 @media screen and (max-width: 779px){
@@ -243,6 +263,38 @@
     main section#sec6 div#rodape div#start_now img{
         width: 100%;
     }
+    footer div#um div#cnt1 img{
+        width: 70%;
+    }
+    main section#sec6 div#rodape{
+    margin-top: 60px;
+    margin-bottom: 85px;
+    background-color: #636363;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    }
+main section#sec6 div#rodape div#text{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 60%;
+    margin: 0;
+}
+main section#sec6 div#rodape div#start_now{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30%;
+}
+main section#sec6 div#rodape div#start_now:hover{
+    transform: scale(1.1);
+    transition: all .6s ease;
+}
 }
 @media screen and (max-width: 645px){
     main section#sec1 nav{
@@ -300,4 +352,8 @@
         font-size: 14px;
         padding: 3px;
     }
+    main section#sec6 div#rodape div#text{
+        width: 100%;
+    }
+    
 }
