@@ -223,6 +223,11 @@
     }
 }
 @media screen and (max-width: 715px){
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     main section#sec1 nav{
         width: 90%;
     }
@@ -355,9 +360,12 @@ main section#sec6 div#rodape div#start_now:hover{
     transition: all .6s ease;
 }
 footer{
-    width: 90%;
+    width: 100%;
     font-size: 10px;
     gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 }
 @media screen and (max-width: 645px){
