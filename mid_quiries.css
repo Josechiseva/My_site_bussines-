@@ -232,8 +232,45 @@
     main section#sec2 div#text p{
         text-align: justify;
     }
+    main section#sec3 div#caixas{
+        flex-basis: 400px;
+    }
     main section#sec3 div#caixas div#um{
         padding: 20px;
+        font-size: 10px;
+    }
+    main section#sec3 div#caixas div#dois{
+        padding: 20px;
+        font-size: 10px;
+    }
+    main section#sec3 div#caixas div#tres{
+        padding: 20px;
+        font-size: 10px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    main section#sec3 div#caixas div#tres p{
+        text-align: center;
+        padding: 0;
+    }
+    main section#sec3 div#caixas div#quatro{
+        padding: 20px;
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    main section#sec3 div#caixas div#cinco{
+        padding: 20px;
+        font-size: 10px;
+        text-align: justify;
+    }
+    main section#sec3 div#caixas div#cinco div#text{
+        padding: 0;
+    }
+    main section#sec3 div#caixas div#seis{
+        padding: 0;
         font-size: 10px;
     }
     main section#sec1 div#logo{
