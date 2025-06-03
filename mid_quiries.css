@@ -226,8 +226,15 @@
     main section#sec1 nav{
         width: 90%;
     }
-    main div#text{
+    main section#sec1 div#text{
         text-align: justify;
+    }
+    main section#sec2 div#text p{
+        text-align: justify;
+    }
+    main section#sec3 div#caixas div#um{
+        padding: 20px;
+        font-size: 10px;
     }
     main section#sec1 div#logo{
         width: 10%;
