@@ -226,6 +226,9 @@
     main section#sec1 nav{
         width: 90%;
     }
+    main div#text{
+        text-align:center ;
+    }
     main section#sec1 div#logo{
         width: 10%;
     }
