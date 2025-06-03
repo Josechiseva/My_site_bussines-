@@ -314,6 +314,7 @@
     }
     main section#sec6 div#rodape div#text{
         width: 70%;
+        font-size: 10px;
     }
     main section#sec6 div#rodape div#start_now{
         width: 30%;
@@ -352,6 +353,10 @@ main section#sec6 div#rodape div#start_now{
 main section#sec6 div#rodape div#start_now:hover{
     transform: scale(1.1);
     transition: all .6s ease;
+}
+footer{
+    font-size: 10px;
+    gap: 10px;
 }
 }
 @media screen and (max-width: 645px){
