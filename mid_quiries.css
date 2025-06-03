@@ -355,6 +355,7 @@ main section#sec6 div#rodape div#start_now:hover{
     transition: all .6s ease;
 }
 footer{
+    width: 90%;
     font-size: 10px;
     gap: 10px;
 }
