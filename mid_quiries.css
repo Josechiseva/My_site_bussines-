@@ -317,6 +317,16 @@
     main section#sec1 div#bt a{
         font-size: 16px;
     }
+    main section#sec5 div#caixas{
+        width: 90%;
+    }
+    main section#sec5{
+        width: 100%;
+    }
+    main section#sec5 div#caixas div{
+        width: 40%;
+        
+    }
     main section#sec6 div#rodape{
         display: flex;
         justify-content: space-between;
