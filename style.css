@@ -199,7 +199,9 @@ main section#sec3 div#caixas{
     justify-content: center;
     flex-basis: 400px;
 }
-
+main section#sec3 div#caixas div{
+    height: 400px;
+}
 main section#sec3 div#caixas div#um{
     background-color: #131313;
     display: flex;
